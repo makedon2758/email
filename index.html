@@ -9,26 +9,188 @@
 	<style type="text/css" data-premailer="ignore">
 		@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 		@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+		table {
+		border-collapse: collapse;
+	/* width: 100%; */
+	color: #242424;
+	text-transform: none;
+	letter-spacing: normal;
+	font-family: "Lato";
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	word-spacing: 0px;
+	white-space: normal;
+	border-collapse: collapse;
+	text-size-adjust: 100%;
+	font-variant-ligatures: normal;
+	font-variant-caps: normal;
+	-webkit-text-stroke-width: 0px;
+	text-decoration-thickness: initial;
+	text-decoration-style: initial;
+	text-decoration-color: initial;
+}
+
+.bgcolor{
+	position: relative;
+}
+.spanpos{
+	position: relative;
+	z-index: 3;
+}
+.bgcolor::before{
+	content:'';
+	display: flex;
+	justify-content: end;
+	position: absolute;
+	width: 297px;
+	top: 0;
+	left: -42px;
+	height: 100%;
+	background: linear-gradient(166deg, #9D08FF 0%, #353CFF 100%);
+}
+
+.bgcolor1{
+	position: relative;
+}
+
+.bgcolor1:before{
+		content:'';
+	display: flex;
+	justify-content: end;
+	position: absolute;
+	width: 96px;
+	top: 0;
+	left: -42px;
+	height: 100%;
+	background: linear-gradient(166deg, #9D08FF 0%, #353CFF 100%);
+}
+.bgcolor2{
+	position: relative;
+}
+
+.bgcolor2:before{
+		content:'';
+	display: flex;
+	justify-content: end;
+	position: absolute;
+	width: 136px;
+	top: 0;
+	left: -42px;
+	height: 100%;
+	background: linear-gradient(166deg, #9D08FF 0%, #353CFF 100%);
+}
+.bgcolor3{
+	position: relative;
+}
+
+.bgcolor3:before{
+		content:'';
+	display: flex;
+	justify-content: end;
+	position: absolute;
+	width: 177px;
+	top: 0;
+	left: -42px;
+	height: 100%;
+	background: linear-gradient(166deg, #9D08FF 0%, #353CFF 100%);
+}
+.bgcolor4{
+	position: relative;
+}
+
+.bgcolor4:before{
+		content:'';
+	display: flex;
+	justify-content: end;
+	position: absolute;
+	width: 167px;
+	top: 0;
+	left: -42px;
+	height: 100%;
+	background: linear-gradient(166deg, #9D08FF 0%, #353CFF 100%);
+}
+.bgcolor5{
+	position: relative;
+}
+
+.bgcolor5:before{
+		content:'';
+	display: flex;
+	justify-content: end;
+	position: absolute;
+	width: 127px;
+	top: 0;
+	left: -42px;
+	height: 100%;
+	background: linear-gradient(166deg, #9D08FF 0%, #353CFF 100%);
+}
+.bgcolor6{
+	position: relative;
+}
+
+.bgcolor6:before{
+		content:'';
+	display: flex;
+	justify-content: end;
+	position: absolute;
+	width: 172px;
+	top: 0;
+	left: -42px;
+	height: 100%;
+	background: linear-gradient(166deg, #9D08FF 0%, #353CFF 100%);
+}
+.bgcolor7{
+	position: relative;
+}
+
+.bgcolor7:before{
+		content:'';
+	display: flex;
+	justify-content: end;
+	position: absolute;
+	width: 110px;
+	top: 0;
+	left: -42px;
+	height: 100%;
+	background: linear-gradient(166deg, #9D08FF 0%, #353CFF 100%);
+}
+
+.bgcimg {
+	/* fill: #D9D9D9; */
+/* filter: blur(24px); */
+	background-image: url("logo.png");
+	width: 100%;
+	height:100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+
+.bg-body{
+		padding: 0;
+	width: 600px;
+	margin: 0 auto;
+	border-radius: 4px;
+	background: linear-gradient(180deg, #021c33 0%, #021f39 15.72%, #095da7 100%);
+}
+
+.hover{
+	transition: all 0.3s ease 0s;
+}
+.hover:hover{
+	transform: scale(1.08);
+}
+
+
+@media only screen and (max-width: 560px) {
+	body {
+		font-size: 14px !important;
+	}
+}
 	</style>
-	<!-- <style data-premailer="ignore">
-	
-	</style>
-	<!--[if mso]>
-      <style type="text/css">
-        body, table, td {
-        	font-family: Arial, Helvetica, sans-serif !important;
-        }
-        
-        img {
-        	-ms-interpolation-mode: bicubic;
-        }
-        
-        .box {
-        	border-color: #eee !important;
-        }
-      </style>
-    <![endif]-->
-	<!-- <link href="./assets/theme.css" rel="stylesheet"> -->
 </head>
 
 <body class="bg-body">
@@ -75,20 +237,15 @@
 		</tr>
 	</table>
 	<!--  -->
-	<table width="544px" style="border-radius: 4px;
+	<table width="600px" style="border-radius: 4px;
 background: #FFF;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-margin-right: 28px;
-margin-left: 28px;
-padding-top: 17px;
-padding-left: 24px;
-padding-right: 24px;" cellspacing="0" cellpadding="0">
+
+" cellspacing="0" cellpadding="0">
+
 		<tr style="display: flex;
 justify-content: center;
 align-items: center;
+padding-top: 17px;
 margin-bottom: 20px;">
 			<td><img src="image.png" alt="image"></td>
 		</tr>
@@ -115,7 +272,10 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 margin-bottom: 34px;
-max-width: 544px;">
+max-width: 544px;
+margin-right: 28px;
+margin-left: 28px;
+">
 			<td>
 				Dear Crypto Enthusiast,
 				<br>
@@ -128,9 +288,18 @@ max-width: 544px;">
 
 			</td>
 		</tr>
-		<tr style='background: #E85858; text-align: center;
-
-			height: 28px;color: #FFF;
+		<tr style='background: #E85858;
+			height: 28px;
+			width: 600px;
+																			display: flex;
+																			justify-content: center;
+																			align-items: center;
+																			margin-bottom: 29px;
+																			'>
+			<td style="color: #FFF;
+					display: flex;
+																			justify-content: center;
+																			align-items: center;
 																			font-family: Inter;
 																			font-size: 12px;
 																			font-style: normal;
@@ -139,18 +308,14 @@ max-width: 544px;">
 																			letter-spacing: 2.4px;
 																			height: 28px;
 																			padding-top: 7px;
-																			padding-bottom: 6px;
-																			display: flex;
-																			justify-content: center;
-																			align-items: center;
-																			display: flex;
-																			margin-bottom: 29px;
-																			'>
-			<td>
+																			padding-bottom: 6px;">
 				$28,700 profit in just 3 months!
 			</td>
 		</tr>
 		<tr style="color: #242424;
+		display: block;
+		margin-right: 28px;
+margin-left: 28px;
 text-align: justify;
 font-family: Lato;
 font-size: 12px;
@@ -197,6 +362,8 @@ margin-bottom: 33px;
 		<tr style="
 	display: block;
 	margin-bottom: 18px;
+	margin-right: 28px;
+margin-left: 28px;
 	">
 			<td style="color: #242424;
 text-align: justify;
@@ -208,7 +375,8 @@ line-height: normal;">
 				Discover the Power of VeroxAI:
 			</td>
 		</tr>
-		<tr style="display: block; margin-bottom: 28px;">
+		<tr style="display: block; margin-right: 28px;
+margin-left: 28px; margin-bottom: 28px;">
 			<td style="color: #242424;
 text-align: justify;
 font-family: Lato;
@@ -224,7 +392,8 @@ line-height: normal;">
 
 			</td>
 		</tr>
-		<tr style="display: block;
+		<tr style="display: block; margin-right: 28px;
+margin-left: 28px;
 	margin-bottom: 16px;">
 			<td style="
 			color: #242424;
@@ -238,14 +407,15 @@ line-height: normal;">
 
 			</td>
 		</tr>
-		<tr style="display: block;margin-bottom: 35px;">
+		<tr style="display: block;margin-right: 28px;
+margin-left: 28px;margin-bottom: 35px;">
 			<td style="color: #242424;
 font-family: Lato;
 font-size: 12px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;">
-				<span style="color: #FFF;
+				<span class="bgcolor" style="color: #FFF;
 text-align: justify;
 height: 19px;
 display: inline-flex;
@@ -257,7 +427,8 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 height: 19px;
-background: linear-gradient(166deg, #9D08FF 0%, #353CFF 100%);">AI-powered Trading Signals with 90% Accuracy:</span>
+
+"><span class="spanpos">AI-powered Trading Signals with 90% Accuracy:</span></span>
 				Our AI algorithm leverages Long Short-Term Memory (LSTM) models and
 				Bayesian optimization to predict hourly cryptocurrency price fluctuations. By combining sentiment,
 				technical, and
@@ -265,14 +436,15 @@ background: linear-gradient(166deg, #9D08FF 0%, #353CFF 100%);">AI-powered Tradi
 
 			</td>
 		</tr>
-		<tr style="display: block;margin-bottom: 20px;">
+		<tr style="display: block;margin-right: 28px;
+margin-left: 28px;margin-bottom: 20px;">
 			<td style="color: #242424;
 font-family: Lato;
 font-size: 12px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;">
-				<span style="color: #FFF;
+				<span class="bgcolor1" style="color: #FFF;
 text-align: justify;
 height: 19px;
 display: inline-flex;
@@ -284,7 +456,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 height: 19px;
-background: linear-gradient(166deg, #9D08FF 0%, #353CFF 100%);">Top Picks:</span> Gain a competitive edge by
+"><span class="spanpos">Top Picks:</span></span> Gain a competitive edge by
 				discovering the most promising coins in the market. Our Top Picks feature scans
 				the market every hour, identifying coins that meet crucial criteria such as price trends, trading volumes,
 				and market
@@ -293,14 +465,15 @@ background: linear-gradient(166deg, #9D08FF 0%, #353CFF 100%);">Top Picks:</span
 
 			</td>
 		</tr>
-		<tr style="display: block;margin-bottom: 20px;">
+		<tr style="display: block;margin-right: 28px;
+margin-left: 28px;margin-bottom: 20px;">
 			<td style="color: #242424;
 font-family: Lato;
 font-size: 12px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;">
-				<span style="color: #FFF;
+				<span class="bgcolor2" style="color: #FFF;
 text-align: justify;
 height: 19px;
 display: inline-flex;
@@ -312,7 +485,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 height: 19px;
-background: linear-gradient(166deg, #9D08FF 0%, #353CFF 100%);">Most Mentioned:</span> Stay plugged into the pulse of
+"><span class="spanpos">Most Mentioned:</span></span> Stay plugged into the pulse of
 				the crypto community with our Most Mentioned feature. We identify the
 				coins generating the most buzz on social platforms, providing you with valuable insights on public sentiment
 				while
@@ -320,14 +493,15 @@ background: linear-gradient(166deg, #9D08FF 0%, #353CFF 100%);">Most Mentioned:<
 
 			</td>
 		</tr>
-		<tr style="display: block;margin-bottom: 20px;">
+		<tr style="display: block;margin-right: 28px;
+margin-left: 28px;margin-bottom: 20px;">
 			<td style="color: #242424;
 font-family: Lato;
 font-size: 12px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;">
-				<span style="color: #FFF;
+				<span  class="bgcolor3"style="color: #FFF;
 text-align: justify;
 height: 19px;
 display: inline-flex;
@@ -339,7 +513,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 height: 19px;
-background: linear-gradient(166deg, #9D08FF 0%, #353CFF 100%);">Biggest Volume Changes:</span> Never miss out on
+"><span class="spanpos">Biggest Volume Changes:</span></span> Never miss out on
 				significant trading volume changes again. Our platform provides hourly updates
 				on coins experiencing notable fluctuations in trading volumes. This real-time information is a clear
 				indicator of
@@ -347,14 +521,15 @@ background: linear-gradient(166deg, #9D08FF 0%, #353CFF 100%);">Biggest Volume C
 
 			</td>
 		</tr>
-		<tr style="display: block;margin-bottom: 20px;">
+		<tr style="display: block;margin-right: 28px;
+margin-left: 28px;margin-bottom: 20px;">
 			<td style="color: #242424;
 font-family: Lato;
 font-size: 12px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;">
-				<span style="color: #FFF;
+				<span class="bgcolor4" style="color: #FFF;
 text-align: justify;
 height: 19px;
 display: inline-flex;
@@ -366,7 +541,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 height: 19px;
-background: linear-gradient(166deg, #9D08FF 0%, #353CFF 100%);">Long-Term Investment: </span> the potential of
+"><span class="spanpos">Long-Term Investment:</span> </span> the potential of
 				long-term investing with our predictive modeling algorithms. By evaluating
 				project fundamentals, historical performance, and overall market trends, we identify coins that exhibit
 				strong potential
@@ -374,14 +549,15 @@ background: linear-gradient(166deg, #9D08FF 0%, #353CFF 100%);">Long-Term Invest
 
 			</td>
 		</tr>
-		<tr style="display: block;margin-bottom: 20px;">
+		<tr style="display: block;margin-right: 28px;
+margin-left: 28px;margin-bottom: 20px;">
 			<td style="color: #242424;
 font-family: Lato;
 font-size: 12px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;">
-				<span style="color: #FFF;
+				<span class="bgcolor5" style="color: #FFF;
 text-align: justify;
 height: 19px;
 display: inline-flex;
@@ -393,7 +569,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 height: 19px;
-background: linear-gradient(166deg, #9D08FF 0%, #353CFF 100%);">Passive Income:</span> Discover opportunities to earn
+"><span class="spanpos">Passive Income:</span></span> Discover opportunities to earn
 				passive income by lending your crypto. Our platform guides you toward the
 				most rewarding staking pools or DeFi platforms, enabling you to leverage high APY opportunities and generate
 				additional
@@ -402,14 +578,15 @@ background: linear-gradient(166deg, #9D08FF 0%, #353CFF 100%);">Passive Income:<
 
 			</td>
 		</tr>
-		<tr style="display: block;margin-bottom: 20px;">
+		<tr style="display: block;margin-right: 28px;
+margin-left: 28px;margin-bottom: 20px;">
 			<td style="color: #242424;
 font-family: Lato;
 font-size: 12px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;">
-				<span style="color: #FFF;
+				<span class="bgcolor6" style="color: #FFF;
 text-align: justify;
 height: 19px;
 display: inline-flex;
@@ -421,21 +598,22 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 height: 19px;
-background: linear-gradient(166deg, #9D08FF 0%, #353CFF 100%);">Automated Trading Bot:</span> Take advantage of our AI
+;"><span class="spanpos">Automated Trading Bot:</span></span> Take advantage of our AI
 				algorithms with our automated trading bot. The bot executes trades based
 				on the buy and sell signals generated by our system. Configure the bot according to your risk profile and
 				investment
 				goals, while leveraging our accurate signals for automated trading.
 			</td>
 		</tr>
-		<tr style="display: block;margin-bottom: 40px;">
+		<tr style="display: block;margin-right: 28px;
+margin-left: 28px;margin-bottom: 40px;">
 			<td style="color: #242424;
 font-family: Lato;
 font-size: 12px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;">
-				<span style="color: #FFF;
+				<span class="bgcolor7" style="color: #FFF;
 text-align: justify;
 height: 19px;
 display: inline-flex;
@@ -447,10 +625,102 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 height: 19px;
-background: linear-gradient(166deg, #9D08FF 0%, #353CFF 100%);">Admin Calls:</span> Leverage the expertise of experienced traders with impressive ROI histories. Our platform provides buy and
+"><span class="spanpos">Admin Calls: </span></span> Leverage the expertise of experienced traders with impressive ROI histories. Our platform provides buy and
 sell suggestions from these knowledgeable traders.
 			</td>
 		</tr>
+		<tr style="
+		display: block;
+		margin-bottom: 30px;
+		">
+			<td>
+				<img width="600px" src="img-bg.jpg" alt="bg">
+			</td>
+		</tr>
+		<tr style="display: block;margin-right: 28px;
+margin-left: 28px;
+		margin-bottom: 16px;">
+			<td style="color: #242424;
+text-align: justify;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;">
+				Real Results Speak Louder:
+
+			</td>
+		</tr>
+		<tr style="display: block; margin-right: 28px;
+margin-left: 28px;
+		margin-bottom: 24px;">
+			<td style="color: #242424;
+text-align: justify;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;">
+Our algorithm has produced exceptional results. For instance, using VeroxAI signals for Bitcoin, an initial investment
+of $10,000 yielded a final balance of $34,430, representing an incredible 244% ROI. Compare this to simply buying and
+holding, which could have resulted in a loss of -22%. Our algorithm has also generated over 300%+ profit on multiple
+coins during the last three months!
+			</td>
+		</tr>
+		<tr style="display: block;margin-right: 28px;
+margin-left: 28px;margin-bottom: 16px;">
+			<td style="color: #242424;
+text-align: justify;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;">
+Don't Miss this Golden Opportunity:
+			</td>
+		</tr>
+		<tr style="display: block;margin-right: 28px;
+margin-left: 28px;">
+			<td style="color: #242424;
+text-align: justify;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;">
+				Join the ranks of successful crypto traders and unlock the power of VeroxAI. Visit our web application now at
+				www.Veroxai.io for more information and sign up today to start making profits!
+			</td>
+		</tr>
+				<tr style="
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				padding-top: 26px;
+				margin-bottom: 14px;
+				">
+					<td class="hover" style="width: 184px;
+				display: inline-flex;
+				justify-content: center;
+				align-items: center;
+				background: linear-gradient(327deg, #0057FF 0%, #AD00FF 100%);
+				padding-top: 11px;
+				padding-left: 16px;padding-right: 16px;
+				padding-bottom: 11px;
+				color: #FFF;
+				text-align: justify;
+				font-family: Inter;
+				font-size: 12px;
+				font-style: normal;
+				font-weight: 700;
+				line-height: normal;
+				cursor: pointer;
+				margin-bottom: 33px;
+				
+				">
+						<a href="#" style="text-decoration: none; color:inherit;">Our Website</a>
+					</td>
+				</tr>
 	</table>
 	<!--  -->
 	<table style='width: 100%;
@@ -465,8 +735,8 @@ sell suggestions from these knowledgeable traders.
 				justify-content: center;
 				align-items: center;
 				gap: 26px;">
-							<td>
-								<img src="" alt="mess">
+							<td >
+								<img style="border-radius: 50%;" src="Group6.jpg" alt="mess">
 							</td>
 							<td>
 								<img src="Vector4.png" alt="mess">
